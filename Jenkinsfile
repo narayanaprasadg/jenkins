@@ -1,5 +1,5 @@
 pipeline {
-    agent any # we need to give agent name , otherwise by default jenkis server
+    agent any
     stages {
         stage('Build') {
             steps {
